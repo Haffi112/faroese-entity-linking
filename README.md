@@ -136,7 +136,7 @@ for (a1, a2), count in labels.most_common():
 
 ## Source Data
 
-The source texts come from the Faroese NER dataset by [Snæbjarnarson et al. (2023)](https://aclanthology.org/2023.nodalida-1.61/), which contains named entity annotations for Faroese news articles from [Sosialurin](https://www.sosialurin.fo/).
+The source texts come from the Faroese NER dataset by [Snæbjarnarson et al. (2023)](https://aclanthology.org/2023.nodalida-1.61/), which contains named entity annotations for Faroese news articles from [Sosialurin](http://www.sosialurin.fo/).
 
 Entity mentions were linked to Wikipedia using GPT-5 (OpenAI) via the OpenRouter API with integrated web search, following a three-tier fallback strategy:
 1. Faroese Wikipedia (fo.wikipedia.org)
